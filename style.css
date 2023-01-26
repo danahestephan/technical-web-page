@@ -1,0 +1,49 @@
+body {
+  margin:10px;
+  padding:20px;
+  background-color: beige;
+}
+#navbar{
+  position: fixed;
+  border-right: solid;
+  border-color: black;
+}
+h3{text-decoration: underline;}
+header{
+  text-align: center;
+  font-size: 1em;
+}
+#main_doc header{
+  text-align: left;
+}
+#navbar a{
+  display: block;
+}
+#main_doc{
+  position: absolute;
+  margin: 10px;
+  padding: 10px;
+}
+#main_doc{
+  position:relative;
+  text-align: right;
+margin-left: 100px;
+padding-left: 150px;
+}
+#nav_bar ul{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#navbar li{
+  border-top: 2px, solid;
+  position: relative;
+}
+code{
+  background-color: lightgreen;
+  display: block;
+  text-align: left;
+  position: relative;
+  border-radius: 2px;
+  padding: 2px;
+min-width: 200px;
+}

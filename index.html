@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>tecnical web page</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ||||||||| Add css external style sheet link tag here |||||||||||||| -->
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/b466ed6b5d.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ||||||||||||| Add HTML Code uder this line |||||||||||| -->
+  <nav id="navbar">
+    <header>HTML Technical Documentation</header>
+    <ul>
+      <li> 
+        <a href="#Introduction" class="nav_link">Introduction</a>
+      </li>
+      <li> 
+        <a href="#Elements" class="nav_link">Elements</a>
+      </li>
+      <li> 
+        <a href="#html_html5" class="nav_link">HTML & HTML5</a>
+      </li>
+      <li> 
+        <a href="#Conclusion" class="nav_link">Conclusion</a>
+      </li>
+    </ul>
+  </nav>
+  <main id="main_doc">
+    <section class="main_sec" id="Introduction">
+      <header>Introduction</header>
+      <article>
+        <p>Structuring a webpage has always been an essential part of web development. HTML stands for the hypertext markup
+        language, and it is the standard markup language for creating structured web pages. HTML5 is the fifth rendition of HTML
+        and introduces new elements that are even more important for structuring and presenting the contents of a webpage.</p>
+        <p>An HTML document is nothing without the elements that tell our browser what we want to display. One of the most critical
+        elements is the div element which acts as a container by helping group elements—enclosing other tags is a great way to
+        structure a web page layout.</p>
+        <ul>
+          <li>The div container helps with the look of a website structure, but that's all it can do. For example, a div element
+            may
+            look nice in the output window but fails at informing the browser of its purpose. The div element is also known as a
+            general container element.</li>
+          <li>Generic div containers bring challenges for people relying on screen reader software. For example, if the browser
+            can't
+            make out the tags used on a website, then some information about the contents found on a webpage is left unspoken. A
+            problem that leads visually impaired people to become very frustrated with a sense of feeling left out.</li>
+        </ul>
+      </article>
+    </section>
+    <section class="main_sec" id="Elements">
+      <header>Elements</header>
+      <article>
+        <p>in order to write an HTML document we have to understand the basic principles of an Element. Elements are comprised of
+        what’s called tags and every element has the potential to follow this structure.</p>
+            <code>
+              <h3>Element Examples</h3>
+              &lt;p>This is a paragraph tag&lt;/p>
+              &lt;h1>This is a heading tag for titles&lt;/h1>
+              &lt;a>This is a Anchor tag for links &lt;/a>
+            </code>
+         
+
+        <ul>
+          <li>To write an HTML, you need to write it in an HTML file format. Typically index.html is the first file you create for
+          your web page; before writing HTML, it's good for understanding the basic principles of an Element. Elements have tag
+          names; an element has an open and closed tag name to descibe that specific content.</li>
+          <li>There are many different Elements to choose from when writing HTML. A few essential elements are the paragraph tag
+          allows us to write plain body text. The Heading Tag outlines the main title for the sub-titles. The Anchor Tag allows us
+          to add a clickable link. lastly, the image tag allows us to add images to our webpage.</li>
+        </ul>
+      </article>
+    </section>
+    <section class="main_sec" id="html_html5">
+      <header>HTML & HTML5</header>
+      <article>
+        <p>HTML5 introduced new container elements. For example, elements that properly help define the layout of a webpage for
+        Bette structuring, like the header, nav, section, and footer, to name a few, are all elements of the document's
+        structure.</p>
+
+        <code>
+          <h3>Using Generic HTML</h3>
+          &lt;!DOCTYPE html>
+        &lt;html lang="en">
+
+        &lt;head>
+          meta data
+        &lt;/head>
+        
+        &lt;body>
+          &lt;/div>
+              &lt;p>This is a paragraph tag&lt;/p>
+              &lt;h1>This is a heading tag for titles&lt;/h1>
+              &lt;a>This is a Anchor tag for links &lt;/a>
+          &lt;/div>
+        &lt;/body>
+        
+        &lt;/html>
+      </code>
+        <p>Not all HTML Elements are evident like the ones mentioned above. HTML5 introduced new semantic elements that adequately
+        define the layout of a webpage, like the header, nav, section, and footer, to name a few.</p>
+        <ul>
+          <li>Semantic elements help structure the code we use to create web page layouts. In other words, the exact name of the html5
+          elements defines their purpose on a webpage layout. For example, The header element is used towards the top of a webpage
+          to add introductory content to your webpage. Semantic elements help us differentiate the semantic elements of our markup
+          from the ones we use solely for design, like the div element.</li>
+          <li>The nav element is where we add a navigational area in the form of links to other web pages or other areas of our
+          website. The main element is used to contain the main content of our website, and the section element is used to
+          organize our main content. Finally, a footer element to wrap up the content and add closing information like resource
+          links, author, or contact information.</li>
+        </ul>
+          <code>
+                     <h3> Using HTML5</h3>
+                      &lt;!DOCTYPE html>
+                    &lt;html lang="en">
+                    
+                    &lt;head>
+                      meta data
+                    &lt;/head>
+                    
+                    &lt;body>
+
+                      &lt;/main>
+
+                      &lt;/header>
+                          &lt;h1>Welcome to my e-commerce app&lt;/h1>
+                          &lt;/header>
+
+                          &lt;article>
+                          &lt;p>This is app will help you lind great deals on all the latest tech&lt;/p>
+                          &lt;a>click here to signup for deals&lt;/a>
+                          &lt;/article>
+
+                          &lt;footer>
+                          copyright © 2022, HTML document, All rights reserved.
+                          &lt;/footer>
+
+                      &lt;/main>
+
+                    &lt;/body>
+                    
+                    &lt;/html>
+                  </code>
+      </article>
+    </section>
+    <section class="main_sec" id="Conclusion">
+      <header>Conclusion</header>
+      <article>
+        <p>In short, using generic HTML is entirely valid and works every time; it's just that html5 semantic elements are
+        machine-readable elements that describe the webpage and make the HTML more comprehensible by better defining the
+        different sections and layouts of web pages.</p>
+        <p>The advancements of HTML5 makes web pages more informative and adaptable, which allows browsers and search engines to
+        better interpret content found on a webpage, better known as SEO or search engine optimization. Since SEO helps web
+        developer, toake advanatge of how your websites will reach your audience, we can build better websites by using HTML5.
+        If you build a website and all you use are generic elements like divs, span, and other elements, your code will become
+        less recognizable over time.</p>
+        <ul>
+          <li>A great deal of web content can be made accessible to everyone by using the correct Hypertext Markup Language elements
+          in the right area. Use the correct HTML elements for their intended purpose as much as possible. Save you the hassle of
+          having to go back and change it.</li>
+          <li>Structural, semantic HTML is the crucial starting point toward good accessibility practices. When a screen reader or any
+          assistive device scans a web page, it gets information about the Document Object Model (DOM) or the HTML structure of
+          the page. A screen reader will read no styles or JavaScript.</li>
+        </ul>
+      </article>
+    </section>
+    
+  </main>
+</body>
+</html>
