@@ -33,6 +33,9 @@ padding-left: 150px;
   overflow-y: auto;
   overflow-x: hidden;
 }
+ul{
+  text-align: center;
+}
 #navbar li{
   border-top: 2px, solid;
   position: relative;
